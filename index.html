@@ -3,11 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Used Cars</title>
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
   <body>
-    <h1>Quality Used Cars</h1>
-    <p>Find your next car at a great price!</p>
+    <header>
+      <div class="logo">Cheshire Motors</div>
+      <div class="nav">
+        <ul>
+          <li><a href="financing.hmtl">Financing</a></li>
+          <li><a href="used-cars.html">Used Cars</a></li>
+          <li><a href="new-cars.html">New Cars</a></li>
+          <li><a href="enquire.html">Enquire</a></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <img class="heart" src="/images/heart.png" alt="heart" />
+        <a class="sign" href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="search">
+        <div class="dropdown-item">
+          <select class="dropdown-item__select" id="car-type" name="car-type">
+            <option value="">Any make</option>
+            <option value="sedan">Mercedes</option>
+            <option value="suv">Audi</option>
+            <option value="car">BMW</option>
+          </select>
+        </div>
+        <div class="dropdown-item">
+          <select class="dropdown-item__select" id="car-type" name="car-type">
+            <option value="">Any Size</option>
+            <option value="sedan">4x4</option>
+            <option value="suv">Prestige</option>
+            <option value="car">Van</option>
+          </select>
+        </div>
+        <div class="dropdown-item">
+          <select class="dropdown-item__select" id="car-type" name="car-type">
+            <option value="">Price</option>
+            <option value="sedan">Under 5k</option>
+            <option value="suv">5k>10k</option>
+            <option value="car">10k>15k</option>
+          </select>
+        </div>
+        <button class="search-button">Search Deals</button>
+      </div>
+    </div>
   </body>
 </html>

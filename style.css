@@ -1,12 +1,114 @@
+:root {
+  --primary: darkblue;
+  --secondary: #DCEEFF;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 40px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
-h1 {
-  font-size: 32px;
+header {
+  font-family: "Oswald", sans-serif;
+  color: var(--primary);
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:
+    0 1px 2px rgba(11, 37, 69, 0.06),
+    0 4px 10px rgba(11, 37, 69, 0.08);
 }
 
-button {
-  padding: 10px 20px;
+.logo {
+  padding: 20px;
+  font-size: 27px;
+  font-weight: bold;
+  gap: 0;
+  margin: 0;
+}
+
+.nav {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  display: flex;
+  gap: 60px;
+  margin: 0;
+  padding: 10px;
+}
+
+.heart {
+  width: 38px;
+}
+
+.sign {
+  border: none;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 5px 20px;
+  font-size: medium;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-flow: row;
+  padding: 45px;
+}
+
+.hero {
+  width: 85%;
+  height: 300px;
+  padding: 50px;
+  background-color: var(--secondary);
+  margin: 40px auto 0 auto;
+  border-radius: 10px;
+}
+
+.search{
+  background-color: white;
+  width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .search {
+    flex-direction: row;
+  }
+}
+
+.dropdown-item {
+  width: 100%;
+}
+
+.dropdown-item__select {
+  width: 100%;
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.search-button{
+  width: 100%;
+    background-color: white;
 }
