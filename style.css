@@ -204,4 +204,5 @@ ul {
 
 .about-text {
   color: var(--primary);
+  font-family: "Inter", sans-serif;
 }
