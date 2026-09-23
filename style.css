@@ -268,26 +268,9 @@ footer {
   padding: 15px;
 }
 
-.instagram {
+.social-icon {
   width: 50px;
-  height: auto;
-  padding: 5px;
-}
-
-.facebook {
-  width: 50px;
-  height: auto;
-  padding: 5px;
-}
-
-.youtube {
-  width: 50px;
-  height: auto;
-  padding: 5px;
-}
-
-.pinterest {
-  width: 50px;
-  height: auto;
-  padding: 5px;
+  height: 38px;
+  object-fit: contain;
+  justify-content: center;
 }
