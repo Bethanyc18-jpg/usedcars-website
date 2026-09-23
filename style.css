@@ -262,7 +262,7 @@ footer {
   padding: 15px;
 }
 
-.email {
+.emails {
   color: var(--primary);
   gap: 10px;
   padding: 15px;
@@ -273,4 +273,17 @@ footer {
   height: 38px;
   object-fit: contain;
   justify-content: center;
+}
+
+.email-input {
+  width: 10%;
+  color: var(--primary);
+  gap: 10px;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  .email-input {
+    width: 25%;
+  }
 }
